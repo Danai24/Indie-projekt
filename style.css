@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+/* hearderbar */
+header{
+    width: 100%;
+    min-height: 10vh;
+    background-color: #ff506e;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem;
+
+    font-size: large;
+}
+
+header a, a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lora', serif;
+}
+
+header a:hover{
+    color: goldenrod;
+    
+}
+
+header ul, li{
+    list-style: none;
+
+    display: flex;
+    gap: 1.5rem;
+}
+
+header label, header .checkBox{
+    display: none;
+}
+
+.login{
+    background-color: #F1F5F9;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    width: 120px;
+    height: 30px;
+}
+
+.searchBar{
+    background-image: url(./icon/search2.png);
+    background-repeat: no-repeat;
+    height:30px;
+    width: 200px;
+    background-position: 90%;
+    border: 1px #505050 solid;
+    border-radius: 4px;
+    background-color: gainsboro;
+    padding: 0 3em;
+    transition:all 600ms ease;
+}
+/* hearderbar */
+
+
+main{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+/* sidebar */
+.sideBar{
+    /* background-color: #F1F5F9; */
+    padding: 1rem;
+}
+
+.container img{
+    width: 50px;
+    height: 50px;
+}
+
+/* cards */
+.cards{
+    padding: 1rem;
+    background: #1E293B;
+    display:flex;
+    flex-wrap:wrap;
+    gap:2rem;
+    justify-content: center;
+}
+
+.cards section{
+    flex:0 1 300px;
+    border-radius: 5px;
+    padding: 1.5rem;
+    background: #475569;
+}
+
+.cards p{
+    margin:1.5rem 0;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lora', serif;
+}
+
+.cards h3{
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lora', serif;   
+}
+
+.cards img{
+    width: 250px;
+    height: 161px;
+}
+
+
+/* button */
+.more, .price {
+    color: black;
+    width: 120px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lora', serif;
+}
+
+.more{
+    background-color: #ff506e;
+}
+
+.price{
+    background-color: #F1F5F9;
+}
+
+/* Mobile view */
+@media  screen and (max-width:600px){
+    header ul{
+        display: none;
+    }
+
+    header label{
+        display: block;
+    }
+
+    header label:hover{
+        cursor: pointer;
+    }
+
+    header input:checked ~ ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
