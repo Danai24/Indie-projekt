@@ -33,8 +33,11 @@ header a, a{
 }
 
 header a:hover{
-    color: goldenrod;
-    
+    color: white;
+}
+
+button a:hover{
+    color: white;
 }
 
 header ul, li{
@@ -144,6 +147,21 @@ main{
 
 .price{
     background-color: #F1F5F9;
+}
+
+.more:hover{
+    background-color: #c55568;
+    color: black;
+}
+
+.price:hover{
+    background-color: #ccd3da;
+    color: black;
+}
+
+button:hover{
+    background-color: #475569;
+    color: white;
 }
 
 /* Mobile view */
