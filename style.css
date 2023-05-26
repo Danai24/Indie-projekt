@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lora', serif;
 }
 
 body{
@@ -27,9 +31,6 @@ header{
 header a, a{
     color: black;
     text-decoration: none;
-    font-family: 'Cabin', sans-serif;
-    font-family: 'Libre Baskerville', serif;
-    font-family: 'Lora', serif;
 }
 
 header a:hover{
@@ -49,15 +50,6 @@ header ul, li{
 
 header label, header .checkBox{
     display: none;
-}
-
-.login{
-    background-color: #F1F5F9;
-    color: black;
-    border-radius: 10px;
-    border: none;
-    width: 120px;
-    height: 30px;
 }
 
 .searchBar{
@@ -87,7 +79,7 @@ main{
     padding: 1rem;
 }
 
-.container img{
+.container .cards-imge{
     width: 50px;
     height: 50px;
 }
@@ -110,21 +102,16 @@ main{
 }
 
 .cards p{
-    margin:1.5rem 0;
-    font-family: 'Cabin', sans-serif;
-    font-family: 'Libre Baskerville', serif;
-    font-family: 'Lora', serif;
+    margin:1.5rem 0; 
 }
 
-.cards h3{
-    font-family: 'Cabin', sans-serif;
-    font-family: 'Libre Baskerville', serif;
-    font-family: 'Lora', serif;   
-}
-
-.cards img{
+.cards .cards-imge{
     width: 250px;
     height: 161px;
+}
+
+h3:hover{
+    color: white;
 }
 
 
@@ -134,11 +121,16 @@ main{
     width: 120px;
     height: 30px;
     border-radius: 50px;
-    border: none;
+    border: none;   
+}
 
-    font-family: 'Cabin', sans-serif;
-    font-family: 'Libre Baskerville', serif;
-    font-family: 'Lora', serif;
+.login{
+    background-color: #F1F5F9;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    width: 120px;
+    height: 30px;
 }
 
 .more{

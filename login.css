@@ -1,4 +1,8 @@
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
     font-family: 'Cabin', sans-serif;
     font-family: 'Libre Baskerville', serif;
     font-family: 'Lora', serif; 
@@ -25,6 +29,7 @@
     margin: 6rem;
     grid-column: 2/3;
     grid-row: 1/2;
+    font-size: large;
 }
 
 input{
@@ -40,5 +45,6 @@ button{
     height: 40px;
     border-radius: 5px;
     border: none;
-    font-size: large;
 }
+
+
