@@ -157,7 +157,7 @@ button:hover{
 }
 
 /* Mobile view */
-@media  screen and (max-width:600px){
+@media  screen and (max-width:900px){
     header ul{
         display: none;
     }
@@ -173,9 +173,28 @@ button:hover{
     header input:checked ~ ul{
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
         width: 100%;
-
-        text-align: center;
         margin-top: 2rem;
     }
+
+    main .sideBar{
+        display: none;
+    }
+
+    .cards{
+        background-color: white;
+        
+    }
+
+    .container{
+        display: flex;
+    }
+
+}
+
+/* login */
+@media screen and (max-width:900px){
+    
 }

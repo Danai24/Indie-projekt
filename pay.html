@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>More About</title>
+    <title>Læse</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./more.css">
     <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./pay.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -39,37 +39,36 @@
                 
     </header>
 
-    <main class="container">
-        <aside class="sideBar">
-            <input type="search" class="searchBar" placeholder="search">
+    <div class="payForm">
+        <div class="kortbetaling"> 
+            <h4>Betalingskort</h4>
+            <section class="infomation">
+                <p>Kortnummer</p>
+                <input type="number">
 
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-        </aside>
+                <p>Udløbsdato</p>
+                <input type="number" class="dato">
 
-        <div class="cards">
-            <section>
-                <img src="./icon/landspace.jpg" alt="">
-                <h1>Lorem ipsum dolor</h1>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed obcaecati sapiente nesciunt iure ea quos! Laboriosam deserunt, quam at voluptates illo, quisquam consectetur, dolorem perferendis repellat nulla quaerat ullam ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fugit mollitia corporis quis nulla doloremque aliquid rem assumenda, ad optio deserunt dolores dolore laboriosam praesentium similique accusamus sed eos unde!    
-                </p>
-
-                <a href="./pay.html">
-                    <button class="buy">Buy</button>
-                </a>
+                <p>CCV/CDV</p>
+                <input type="number" class="ccv">
 
             </section>
+            <img src="./icon/Logoer-web-500x299.jpg" alt="">
         </div>
-    </main>
+
+        <div class="mobilepay">
+            <h4>MobilePay</h4>
+            <p>Indtast dit telefonnummer</p>
+            <input type="tel">
+            <button type="submit" class="continue">Continue</button>
+        </div>
+
+        <a href="./download.html">
+        <button type="submit" class="buy">Buy</button>
+        </a>
+
+    </div>
+
 
     <footer>
         <div class="footer">
@@ -86,7 +85,6 @@
             </div>
         </div>
     </footer>
-
+    
 </body>
-
 </html>

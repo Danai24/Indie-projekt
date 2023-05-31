@@ -13,7 +13,6 @@
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 2fr;
     text-align: center;
-    gap: 1rem;
 }
 
 .container{
@@ -26,7 +25,7 @@
 }
 
 .submit{
-    margin: 6rem;
+    margin-top: 6rem;
     grid-column: 2/3;
     grid-row: 1/2;
     font-size: large;
@@ -47,4 +46,32 @@ button{
     border: none;
 }
 
+/* login */
+@media screen and (max-width:900px){
 
+    .login-form{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 300px 1fr;
+        grid-template-rows: 300px 50px;
+    }
+
+    .container{
+        display: grid;
+        margin: 0;
+        padding: 0;
+        align-content: space-evenly;
+        justify-content: space-around;
+        
+        grid-column: 2/2;
+        height: auto;
+    }
+
+    .submit{
+        margin: auto;
+        grid-column: 2/3;
+        grid-row: 2/2;
+    }
+}

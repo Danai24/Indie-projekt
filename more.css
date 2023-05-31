@@ -41,3 +41,9 @@ img{
     border: none;
     font-size: large;
 }
+
+@media screen and (max-width:900px){
+    .cards{
+        max-width: 390px;
+    }
+}
