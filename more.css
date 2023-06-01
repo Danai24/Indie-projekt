@@ -44,6 +44,14 @@ img{
 
 @media screen and (max-width:900px){
     .cards{
-        max-width: 390px;
+        background-color: white;
+    }
+
+    section{
+        width: 100%;
+    }
+
+    .buy{
+        width: 100%;
     }
 }

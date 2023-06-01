@@ -1,0 +1,48 @@
+.container-download{
+    display: block;
+    text-align: center;
+}
+
+.cards{
+    background-color: whitesmoke;
+}
+
+.download-button{
+    margin: 3rem;
+}
+
+.download{
+    width: 292px;
+    height: 292px;
+}
+
+h5{
+    font-size: xx-large;
+}
+
+@media screen and (max-width:900px){
+    .cards{
+        background-color: whitesmoke;
+    }
+
+    section{
+        width: 100%;
+    }
+
+    .buy{
+        width: 100%;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    .download{
+        width: 50%;
+        height: 50%;
+    }
+
+
+
+    
+}
