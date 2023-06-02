@@ -87,7 +87,7 @@ main{
 /* cards */
 .cards{
     padding: 1rem;
-    background: #1E293B;
+    /* background: #1E293B; */
     display:flex;
     flex-wrap:wrap;
     gap:2rem;
