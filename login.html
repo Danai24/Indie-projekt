@@ -40,19 +40,21 @@
     </header>
     
     <section class="login-form">
-    
-        <div class="container">
-            <label for="uname">Username</label>
-            <input type="text" placeholder="Enter username">
+        <form action="" id="loginForm">
+            <h5>Login</h5>
+            <div class="uname">
+                <label for="uname"></label>
+                <input type="text" placeholder="Enter username" id="username">
+            </div>
             
-            <label for="pws">Password</label>
-            <input type="password" placeholder="Enter password">
-        </div>
+            <div class="pws">
+                <label for="pws"></label>
+                <input type="password" placeholder="Enter password" id="password">
+            </div>
+            
+                <button type="submit" class="submit" id="btn" onclick="validate()">Login</button>
+        </form>
         
-        <div class="submit">
-            <button type="submit" class="submit">Login</button>
-        </div>
-    
     </section>
 
     <footer>

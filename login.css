@@ -8,26 +8,37 @@
     font-family: 'Lora', serif; 
 }
 
-.login-form{
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 2fr;
+h5{
+    font-size: xx-large;
+    color: white;
     text-align: center;
 }
 
-.container{
-    padding: 1rem;
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
     background-color: #1E293B;
-    grid-column: 2/3;
-    grid-row: 1/2;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.uname{
+    padding: 1rem;
+    /* background-color: #1E293B; */
     color: white;
-    height: 600px;
+    text-align: center;
+}
+
+.pws{
+    padding: 1rem;
+    /* background-color: #1E293B; */
+    color: white;
+    text-align: center;
 }
 
 .submit{
-    margin-top: 6rem;
-    grid-column: 2/3;
-    grid-row: 1/2;
     font-size: large;
 }
 
@@ -40,7 +51,8 @@ input{
 }
 
 button{
-    width: 200px;
+    margin: 1rem;
+    width: 120px;
     height: 40px;
     border-radius: 5px;
     border: none;
@@ -53,25 +65,18 @@ button{
         margin: 0;
         padding: 0;
         width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 300px 1fr;
-        grid-template-rows: 300px 50px;
+        display: flex;
     }
 
-    .container{
-        display: grid;
-        margin: 0;
+    .uname, .pws{
+        margin: 1rem;
         padding: 0;
-        align-content: space-evenly;
-        justify-content: space-around;
         
-        grid-column: 2/2;
         height: auto;
     }
 
     .submit{
-        margin: auto;
-        grid-column: 2/3;
-        grid-row: 2/2;
+        margin: 1rem;
+        
     }
 }
